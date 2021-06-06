@@ -3,9 +3,9 @@ on:
   # https://docs.github.com/ja/actions/reference/events-that-trigger-workflows#scheduled-events
   schedule:
     - cron:  '50 * * * *'
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   deploy:
