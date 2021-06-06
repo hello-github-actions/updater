@@ -2,7 +2,7 @@ name: update github pages
 on:
   # https://docs.github.com/ja/actions/reference/events-that-trigger-workflows#scheduled-events
   schedule:
-    - cron: '3/10 * * * *'
+    - cron: '15 * * * *'
   # push:
   #   branches:
   #     - main
