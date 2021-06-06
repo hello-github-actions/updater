@@ -31,4 +31,3 @@ jobs:
           external_repository: hello-github-actions/hello-github-actions.github.io
           publish_branch: main
           publish_dir: ./public
-          # github_token: ${{ secrets.GITHUB_TOKEN }}
